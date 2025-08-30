@@ -1,0 +1,15 @@
+# Produtos de compilação
+*.obj
+*.o
+*.ppu
+
+# Estudo
+*.pdf
+
+# videos
+*.mp4
+*.mov
+*.avi
+
+# Diretorios
+./estudo/*
