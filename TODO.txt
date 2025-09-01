@@ -1,0 +1,14 @@
+# Projeto
+## Decidir um nome decente para o robô:
+  > Sugestôes
+    - Andrea
+    - Andrea Doria
+
+# Mecanica
+- Garra
+
+# Software
+## Engine
+  * Conversor de encoder para DW
+## Modos
+  * Seguidor de linha

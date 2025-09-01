@@ -1,7 +1,7 @@
-#include "m_fx.h"
-#include "g_ang.h"
-#include "l_defs.h"
-#include "l_robo.h"
+#include  "m_fx.h"
+#include  "g_ang.h"
+#include  "l_defs.h"
+#include  "l_robo.h"
 
 task main {
 
@@ -9,7 +9,9 @@ task main {
   obj_robo andrea;
   criar_robo(&andrea);
 
-  /* Loop principal */
+  /* +================+ */
+  /* | Loop principal | */
+  /* +================+ */
   while(andrea.b_exec) {
 
 #ifdef    __LUNOVERSIS_DEBUG__

@@ -13,8 +13,19 @@
 /* +========+ */
 obj
 _lunoversis_obj_robo {
-  ang_t   a_theta;    /* Angulo global do robo */
-  bool    b_exec;     /* - "Isso ao menos esta executando?" */
+  /* +=====================+ */
+  /* | Propriedade globais | */
+  /* +=====================+ */
+  ang_t   a_theta;      /* Angulo global do robo */
+  bool    b_exec;       /* - "Isso ao menos esta executando?" */
+
+  /* +================+ */
+  /* | Vies de sensor | */
+  /* +================+ */
+  struct vies {
+    int   i_luz;
+  };
+
 } obj_robo;
 
 /* +============+ */
