@@ -3,11 +3,16 @@
 #include  "l_defs.h"
 #include  "l_robo.h"
 
+#define   __LUNOVERSIS_DEBUG__
+
+/* Nosso Robo */
+obj_robo andrea;
+
 task main {
 
   /* Crie uma instancia do robo */
-  obj_robo andrea;
   criar_robo(&andrea);
+  conf_robo( 32, 32, &andrea);
 
   /* +================+ */
   /* | Loop principal | */
