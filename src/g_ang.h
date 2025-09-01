@@ -20,4 +20,9 @@
 
 typedef long  ang_t;      /* Apenas para claridade. */
 
+ang_t
+conv_enc_ang( char enc) {
+  return ((enc + 100)/200) * 360;
+}
+
 #endif  /*  _LUNOVERSIS_G_ANGLE_H */

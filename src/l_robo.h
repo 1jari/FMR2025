@@ -1,14 +1,14 @@
 #ifndef     _LUNOVERSIS_L_ROBOT_H
 #define     _LUNOVERSIS_L_ROBOT_H
 
+#include    "g_ang.h"
+#include    "l_defs.h"
+
 #ifndef     __LUNOVERSIS__
 #define     __LUNOVERSIS__
 #endif  /*  __LUNOVERSIS__ */
 
-#include    "g_ang.h"
-#include    "l_defs.h"
-
-#define     N_SENSORES  4
+#define     N_SENSORES  2
 #define     S_LUZ_ESQ   S2
 #define     S_LUZ_DIR   S3
 
@@ -73,6 +73,7 @@ debug_robo( obj_robo *robo) {
   nxtDisplayString(1, "Rodando!");
   nxtDisplayString(2, "Ang %d", robo->a_theta);
   nxtDisplayString(3, "Vies [eL%d]", robo->__vies[S_LUZ_ESQ]);
+  nxtDisplayString(4, "E%d:D%d", nMotorEncoder[motorB], nMotorEncoder[motorC]);
 }
 
 #endif  /*  _LUNOVERSIS_L_ROBOT_H */

@@ -9,6 +9,5 @@
 
 # Software
 ## Engine
-  * Conversor de encoder para DW
 ## Modos
   * Seguidor de linha
